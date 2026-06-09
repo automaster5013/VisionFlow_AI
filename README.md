@@ -71,11 +71,11 @@ AI Automated Asset Logging
 
 사용자가 물품 사진(노트북, 모니터, 키보드 등)을 업로드하면 AI가 객체를 식별하여 카테고리별로 자동 분류 및 재고 수량을 실시간으로 반영합니다.
 
-Role-Based Access Control (RBAC)
+Role-Based Access Control (RBAC) : 
 
 Spring Security + JWT를 활용해 일반 직원(자산 조회 및 대여 요청)과 관리자(AI 기반 자산 등록 및 마스터 데이터 제어)의 권한 영역을 엄격히 차단합니다.
 
-Asset History Tracking
+Asset History Tracking : 
 
 모든 자산의 생성, 변경, 입출고 이력을 불변(Immutable) 로그 테이블로 격리하여 시스템 데이터의 정밀한 추적성을 보장합니다.
 
