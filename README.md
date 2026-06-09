@@ -56,7 +56,7 @@ FastAPI는 경량화된 AI 모델 추론 및 이미지 전처리 인터페이스
 향후 배포 파이프라인의 효율성을 극대화합니다.
 
 
- 📂 2. Repository Structure
+## 📂 2. Repository Structure
 ```
 VisionFlow/
 ├── visionflow-backend/     # ☕ Java / Spring Boot 메인 백엔드 애플리케이션
@@ -65,7 +65,7 @@ VisionFlow/
 └── visionflow-devops/      # 🐳 Docker Compose, Nginx, CI/CD 워크플로우 설정 파트
 ```
 
- 🎯 3. Key Features & Phase Roadmap
+## 🎯 3. Key Features & Phase Roadmap
 🏁 Phase 2: Core Service & AI Integration (7월 목표)
 AI Automated Asset Logging
 
