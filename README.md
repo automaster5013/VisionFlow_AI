@@ -46,11 +46,13 @@ graph TD
     style MySQL fill:#f96,stroke:#333,stroke-width:2px
     style FastAPI fill:#bfb,stroke:#333,stroke-width:2px
     style YOLO fill:#fbb,stroke:#333,stroke-width:2px
+```
 
+1) 역할의 명확한 분리 (Decoupling): Spring Boot는 비즈니스 로직, 회원 인가(JWT), DB 트랜잭션 제어에 집중하고, 
+FastAPI는 경량화된 AI 모델 추론 및 이미지 전처리 인터페이스 역할만 전담하여 시스템 결합도를 최소화했습니다.
 
-1) 역할의 명확한 분리 (Decoupling): Spring Boot는 비즈니스 로직, 회원 인가(JWT), DB 트랜잭션 제어에 집중하고, FastAPI는 경량화된 AI 모델 추론 및 이미지 전처리 인터페이스 역할만 전담하여 시스템 결합도를 최소화했습니다.
-
-2) DevOps 친화적 구조: 각 컴포넌트는 완벽히 독립된 도커(Docker) 컨테이너로 격리되어 가상 네트워크 안에서 결합되며, 향후 배포 파이프라인의 효율성을 극대화합니다.
+2) DevOps 친화적 구조: 각 컴포넌트는 완벽히 독립된 도커(Docker) 컨테이너로 격리되어 가상 네트워크 안에서 결합되며, 
+향후 배포 파이프라인의 효율성을 극대화합니다.
 
 
  📂 2. Repository Structure
