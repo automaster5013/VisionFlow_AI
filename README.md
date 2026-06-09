@@ -55,9 +55,9 @@ FastAPI는 경량화된 AI 모델 추론 및 이미지 전처리 인터페이스
 2) DevOps 친화적 구조: 각 컴포넌트는 완벽히 독립된 도커(Docker) 컨테이너로 격리되어 가상 네트워크 안에서 결합되며, 
 향후 배포 파이프라인의 효율성을 극대화합니다.
 
-```
- 📂 2. Repository Structure
 
+ 📂 2. Repository Structure
+```
 VisionFlow/
 ├── visionflow-backend/     # ☕ Java / Spring Boot 메인 백엔드 애플리케이션
 ├── visionflow-ai/          # ⚡ Python / FastAPI & YOLO 기반 AI 엔진 API 서버
