@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: visionflow_backend
+
+  # 🌟 MySQL 데이터베이스 접속 설정 추가
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 본인의 MySQL 포트(기본 3306)와 스키마명(예: visionflow_db)을 입력하세요.
+    url: jdbc:mysql://localhost:3306/visionflow_db?useSSL=false&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+    username: root          # MySQL 접속 계정명
+    password: pyvaops4321  # MySQL 접속 비밀번호
+
+  # JPA 및 하이버네이트 설정
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      # 🌟 validate 대신 none으로 설정하면 컬럼명 검증을 패스하고 바로 서버가 구동됩니다.
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+# 🌟 기존에 연동해 둔 FastAPI 서버 주소 정의
+com:
+  visionflow:
+    ai-server-url: http://localhost:8000

@@ -1,0 +1,72 @@
+{
+  "status": "success",
+  "detected_count": 6,
+  "predictions": [
+    {
+      "detected_category": "KEYBOARD",
+      "confidence": 0.911,
+      "bounding_box": {
+        "xmin": 168,
+        "ymin": 357,
+        "xmax": 351,
+        "ymax": 396
+      },
+      "ai_suggested_code": "AST-KEYBOARD-20260613202606-0"
+    },
+    {
+      "detected_category": "MOUSE",
+      "confidence": 0.865,
+      "bounding_box": {
+        "xmin": 359,
+        "ymin": 385,
+        "xmax": 403,
+        "ymax": 402
+      },
+      "ai_suggested_code": "AST-MOUSE-20260613202606-1"
+    },
+    {
+      "detected_category": "TRUCK",
+      "confidence": 0.847,
+      "bounding_box": {
+        "xmin": 34,
+        "ymin": 8,
+        "xmax": 379,
+        "ymax": 192
+      },
+      "ai_suggested_code": "AST-TRUCK-20260613202606-2"
+    },
+    {
+      "detected_category": "CHAIR",
+      "confidence": 0.669,
+      "bounding_box": {
+        "xmin": 0,
+        "ymin": 412,
+        "xmax": 114,
+        "ymax": 454
+      },
+      "ai_suggested_code": "AST-CHAIR-20260613202606-3"
+    },
+    {
+      "detected_category": "TV",
+      "confidence": 0.503,
+      "bounding_box": {
+        "xmin": 198,
+        "ymin": 155,
+        "xmax": 464,
+        "ymax": 340
+      },
+      "ai_suggested_code": "AST-TV-20260613202606-4"
+    },
+    {
+      "detected_category": "MICROWAVE",
+      "confidence": 0.372,
+      "bounding_box": {
+        "xmin": 43,
+        "ymin": 188,
+        "xmax": 211,
+        "ymax": 367
+      },
+      "ai_suggested_code": "AST-MICROWAVE-20260613202606-5"
+    }
+  ]
+}
