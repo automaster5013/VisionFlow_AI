@@ -99,22 +99,22 @@ graph LR
   </thead>
   <tbody>
     <tr>
-      <td>🛡️ <b>안전 탐지</b></td>
+      <td>🛡️ <br><b>안전 탐지</b></td>
       <td><b>Real-time Safety Gear Detection</b></td>
       <td>관심 구역(ROI) 내 사람 및 이륜차를 식별하고, Custom 모델을 통해 <b>안전모/헬멧 착용 여부(With/Without)를 실시간 판별</b>합니다.</td>
     </tr>
     <tr>
-      <td>🚶 <b>행동 추정</b></td>
+      <td>🚶 <br><b>행동 추정</b></td>
       <td><b>Human Pose Estimation</b></td>
       <td>영상 내 객체의 키포인트(Keypoint)를 추출하여 비정상적 자세나 쓰러짐 등 <b>동적 위험 행동을 즉각 인지</b>합니다.</td>
     </tr>
     <tr>
-      <td>🔐 <b>권한 제어</b></td>
+      <td>🔐 <br><b>권한 제어</b></td>
       <td><b>Role-Based Access Control</b></td>
       <td>Spring Security와 JWT를 결합해 <b>현장 관리자(알림 수신)</b>와 <b>최고 관리자(마스터 제어)</b>의 관제 권한을 분리합니다.</td>
     </tr>
     <tr>
-      <td>📝 <b>데이터 무결성</b></td>
+      <td>📝 <br><b>데이터 무결성</b></td>
       <td><b>Immutable Violation Logging</b></td>
       <td>탐지된 모든 위반 이벤트(스냅샷, 시간, 위치)를 <b>불변(Immutable) 로그 테이블</b>로 격리하여 감사(Audit) 기록을 보존합니다.</td>
     </tr>
