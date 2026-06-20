@@ -126,12 +126,13 @@ graph LR
 ## 📂 3. Repository Structure
 각 도메인은 완벽히 독립된 도커(Docker) 컨테이너로 격리되어 가상 네트워크 안에서 결합됩니다.
 
-Plaintext
+```text
 VisionFlow_AI/
 ├── visionflow-backend/     # ☕ [Java] 통합 관제 대시보드 API 및 로직
 ├── visionflow-ai/          # ⚡ [Python] 실시간 영상 분석 및 이벤트 발행 엔진
 ├── visionflow-db/          # 🐬 [SQL] 데이터베이스 스키마 및 ERD
 └── visionflow-devops/      # 🐳 [Infra] Docker Compose, Nginx, CI/CD 설정
+```
 
 <br>
 
