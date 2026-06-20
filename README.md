@@ -8,7 +8,8 @@
 
 <div align="center">
   <sub><strong>Vision (AI 시각 지능) + Flow (실시간 데이터 흐름)</strong></sub>
-  <p>CCTV 영상 스트림(Vision)을 실시간으로 분석하고, 위반 상황과 관제 데이터를 지연 없이 백엔드로 흘려보내는(Flow) 고성능 하이브리드 안전 관제 솔루션입니다.</p>
+  <p>CCTV 영상 스트림(Vision)을 실시간으로 분석하고, 위반 상황과 관제 데이터를 지연 없이 백엔드로 흘려보내는(Flow) <br>
+고성능 하이브리드 안전 관제 솔루션입니다.</p>
 </div>
 
 <div align="center">
@@ -33,7 +34,7 @@
 <div align="center">
   <img src="https://via.placeholder.com/800x400/1a1a1a/ffffff?text=+Video+Stream+%26+Real-time+Detection+Demo+(GIF)+" width="800" alt="VisionFlow Demo GIF">
   <br>
-  <sup><em>▲ 실시간 자전거/이륜차 안전모 착용 여부 판별 및 추적 화면 (예정)</em></sup>
+  <sup><em>▲ 실시간 안전모 착용 여부 판별 및 추적 화면 (예정)</em></sup>
 </div>
 
 ---
@@ -59,6 +60,8 @@
 
 <div align="center">
   <img src="https://via.placeholder.com/800x300/1a1a1a/ffffff?text=+Detailed+Video+Processing+Pipeline+Flowchart+" width="800" alt="Video Processing Flowchart">
+  <br>
+  <sup><em>▲ 영상 처리에 관한 작업진행 화면 (예정)</em></sup>
 </div>
 
 ### 🧩 System Architecture
@@ -66,16 +69,16 @@
 ```mermaid
 graph LR
     subgraph "AI Inference Zone (GPU 가속)"
-        Camera[📷 CCTV / Video Stream] -->|RTSP / MP4| FastAPI[⚡ FastAPI AI Server]
-        FastAPI -->|Extract Keypoints & BBox| YOLO[🔥 YOLOv11 & Pose]
+        Camera["📷 CCTV / Video Stream"] -->|"RTSP / MP4"| FastAPI["⚡ FastAPI AI Server"]
+        FastAPI -->|"Extract Keypoints & BBox"| YOLO["🔥 YOLOv11 & Pose"]
     end
 
     subgraph "Backend Control Zone (비즈니스/인가)"
-        FastAPI -->|🚨 Event Alert (REST)| SpringBoot[☕ Spring Boot API]
-        SpringBoot -->|불변 로깅 & 조회| MySQL[(🐬 MySQL)]
+        FastAPI -->|"🚨 Event Alert (REST)"| SpringBoot["☕ Spring Boot API"]
+        SpringBoot -->|"불변 로깅 & 조회"| MySQL[("🐬 MySQL")]
     end
 
-    Client[📱 Web Dashboard] <-->|JWT / JSON| SpringBoot
+    Client["📱 Web Dashboard"] <-->|"JWT / JSON"| SpringBoot
 
     style Camera fill:#333,stroke:#fff,stroke-width:2px,color:#fff
     style Client fill:#333,stroke:#fff,stroke-width:2px,color:#fff
