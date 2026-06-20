@@ -86,7 +86,7 @@ graph LR
     style MySQL fill:#4479A1,stroke:#fff,stroke-width:2px,color:#fff
     style FastAPI fill:#009688,stroke:#fff,stroke-width:2px,color:#fff
     style YOLO fill:#00FFFF,stroke:#333,stroke-width:2px,color:#000
-
+'''
 
 ## 🎯 2. Core Features (핵심 기능)
 
