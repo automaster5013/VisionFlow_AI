@@ -1,9 +1,9 @@
 <div align="center">
 
 # 👁️ VisionFlow AI
-**지능형 공공시설 및 작업장 안전 관제 시스템**
+**"지능형 공공시설 및 작업장 안전 관제 시스템"**
 
-: Spring Boot의 견고한 관제 백엔드와 Python 기반 고성능 실시간 AI 비전 엔진의 완벽한 융합
+: JAVA 기반 Spring Boot의 견고한 관제 백엔드와 Python 기반 고성능 실시간 AI 비전 엔진의 완벽한 융합
 <br>
 
 <div align="center">
@@ -83,7 +83,6 @@ graph LR
     style MySQL fill:#4479A1,stroke:#fff,stroke-width:2px,color:#fff
     style FastAPI fill:#009688,stroke:#fff,stroke-width:2px,color:#fff
     style YOLO fill:#00FFFF,stroke:#333,stroke-width:2px,color:#000
-```
 
 
 ## 🎯 2. Core Features (핵심 기능)
