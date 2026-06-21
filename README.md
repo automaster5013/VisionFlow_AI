@@ -148,10 +148,11 @@ graph LR
 
 ```text
 VisionFlow_AI/
-├── visionflow-backend/     # ☕ [Java] 통합 관제 대시보드 API 및 로직
-├── visionflow-ai/          # ⚡ [Python] 실시간 영상 분석 및 이벤트 발행 엔진
-├── visionflow-db/          # 🐬 [SQL] 데이터베이스 스키마 및 ERD
-└── visionflow-devops/      # 🐳 [Infra] Docker Compose, Nginx, CI/CD 설정
+├── 01_AI_Inference_Server/ # ⚡ [Python] 실시간 영상 분석 및 이벤트 발행 엔진
+├── 02_Backend_API/         # ☕ [Java] 통합 관제 대시보드 API 및 로직
+├── 03_Frontend/            # 📱 [React] 메인 관제 화면 및 시각화 대시보드
+├── 04_MySQL_db/            # 🐬 [SQL] 데이터베이스 스키마 및 ERD
+└── 05_Infra_devops/        # 🐳 [Infra] Docker Compose, Nginx, CI/CD 설정
 ```
 
 <br>
