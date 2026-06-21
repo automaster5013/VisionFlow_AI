@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 팀 로고 이미지 삽입 (맨 상단) -->
-<img src="https://via.placeholder.com/1000x300/1a1a1a/ffffff?text=Place+PyvaOps+Logo+Image+Here" width="800" alt="PyvaOps Team Logo">
+<img src="Pyvaps_Logo.png" width="800" alt="PyvaOps Team Logo">
 
 <br>
 
