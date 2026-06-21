@@ -157,7 +157,10 @@ VisionFlow_AI/
 <br>
 
 ## 🎯 4. Key Features & Phase Roadmap
-🏁 Phase 2: Core Safety Logic & AI Integration (현재 진행 단계)
+
+<br>
+
+## 🏁 Phase 2: Core Safety Logic & AI Integration (현재 진행 단계)
 Real-time Safety Gear Detection (안전 장비 착용 탐지):
 지정된 경계 구역(ROI) 내에서 사람(Person)과 자전거/이륜차 등의 객체를 식별하고, Custom 모델을 통해 헬멧 착용 여부(0: With Helmet, 1: Without Helmet)를 실시간으로 판별합니다.
 
