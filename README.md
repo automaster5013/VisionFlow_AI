@@ -1,5 +1,25 @@
 <div align="center">
 
+<!-- 팀 로고 이미지 삽입 (맨 상단) -->
+<img src="https://via.placeholder.com/1000x300/1a1a1a/ffffff?text=Place+PyvaOps+Logo+Image+Here" width="800" alt="PyvaOps Team Logo">
+
+<br>
+
+<!-- 🎨 로고에 대한 간략하고 짜임새 있는 설명 추가 -->
+<div align="center" style="max-width: 800px; text-align: left; background-color: #f6f8fa; padding: 15px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px;">
+  <h3 style="margin-top: 0;">🎨 Team PyvaOps Logo Concept</h3>
+  <p style="font-size: 0.95em; color: #333; line-height: 1.6;">
+    팀명 <strong>PyvaOps</strong>의 정체성을 시각화한 이 로고는 서로 다른 기술 생태계를 하나의 완벽한 흐름으로 관통하는 <strong>'올라운더(All-rounder)'</strong> 개발팀의 핵심 가치를 담고 있습니다.
+  </p>
+  <ul style="font-size: 0.9em; color: #555; padding-left: 20px; margin-bottom: 0;">
+    <li><strong>상징적 인피니티 루프:</strong> 단절 없는 통합과 지속적인 순환(CI/CD)을 의미하며, 세 가지 핵심 기술이 끊임없이 상호작용함을 나타냅니다.</li>
+    <li><strong>기술별 아이콘 & 컬러 블렌딩:</strong> 좌측의 블루 Python(AI) 로고, 중앙의 오렌지 Java(Backend) 로고, 우측의 Teal DevOps(Infra) 심볼이 유기적으로 엮여 완벽한 시너지를 시각화합니다.</li>
+    <li><strong>임팩트 있는 네온 에스테틱:</strong> 어두운 네트워크 배경 위의 강렬한 빛의 그라데이션은 AI 시대에 걸맞은 현대적이고 역동적인 기술력과 고성능 이미지를 전달합니다.</li>
+  </ul>
+</div>
+
+---
+
 # 👁️ VisionFlow AI
 **지능형 공공시설 및 작업장 안전 관제 시스템**
 
