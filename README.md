@@ -32,7 +32,7 @@ Docker Desktop이 설치되어 있다면, 복잡한 환경 설정 없이 단 한
 
 1. 프로젝트 클론 및 이동
 
-git clone [https://github.com/PyvaOps/VisionFlow_AI.git](https://github.com/automaster5013/VisionFlow_AI.git)
+git clone [https://github.com/automaster5013/VisionFlow_AI.git](https://github.com/automaster5013/VisionFlow_AI.git)
 cd VisionFlow_AI
 
 
