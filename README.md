@@ -32,14 +32,13 @@ Docker Desktop이 설치되어 있다면, 복잡한 환경 설정 없이 단 한
 
 1. 프로젝트 클론 및 이동
 
-git clone [https://github.com/PyvaOps/VisionFlow_AI.git](https://github.com/PyvaOps/VisionFlow_AI.git)
+git clone [https://github.com/automaster5013/VisionFlow_AI.git](https://github.com/PyvaOps/VisionFlow_AI.git)
 cd VisionFlow_AI
 
 
 2. 전체 시스템 빌드 및 실행
 
-최상위 디렉토리에서 아래 명령어를 실행합니다. 
-(최초 실행 시 이미지를 다운로드하고 빌드하므로 몇 분 정도 소요될 수 있습니다.)
+최상위 디렉토리에서 아래 명령어를 실행합니다.
 
 docker-compose up --build
 
