@@ -3,36 +3,43 @@
 <!-- 팀 로고 이미지 삽입 (맨 상단) -->
 <img src="PyvaOps_Logo.png" width="800" alt="PyvaOps Team Logo">
 
+</div>
 <br>
+<div align="left">
 
 <!-- 🎨 로고에 대한 간략하고 짜임새 있는 설명 추가 -->
 <div align="center" style="max-width: 800px; text-align: left; background-color: #f6f8fa; padding: 15px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px;">
   <h3 style="margin-top: 0;">🎨 Team PyvaOps Logo Concept</h3>
   <p style="font-size: 0.95em; color: #333; line-height: 1.6;">
-    팀명 <strong>PyvaOps</strong>의 정체성을 시각화한 이 로고는 서로 다른 기술 생태계를 하나의 완벽한 흐름으로 관통하는 <strong>'올라운더(All-rounder)'</strong> 개발팀의 핵심 가치를 담고 있습니다.
+    팀명 <strong>PyvaOps</strong>의 정체성을 시각화한 이 로고는 서로 다른 기술 생태계를 하나의 완벽한 흐름으로 관통하는 <br><strong>'올라운더(All-rounder)'</strong> 개발팀의 핵심 가치를 담고 있습니다.
   </p>
   <ul style="font-size: 0.9em; color: #555; padding-left: 20px; margin-bottom: 0;">
-    <li><strong>상징적 인피니티 루프:</strong> 단절 없는 통합과 지속적인 순환(CI/CD)을 의미하며, 세 가지 핵심 기술이 끊임없이 상호작용함을 나타냅니다.</li>
+    <li><strong>상징적 인피니티 루프:</strong> 단절 없는 통합과 지속적인 순환(CI/CD)을 의미하며, 세 가지 핵심 기술이 끊임없이 상호작용합니다.</li>
     <li><strong>기술별 아이콘 & 컬러 블렌딩:</strong> 좌측의 블루 Python(AI) 로고, 중앙의 오렌지 Java(Backend) 로고, 우측의 Teal DevOps(Infra) 심볼이 유기적으로 엮여 완벽한 시너지를 시각화합니다.</li>
     <li><strong>임팩트 있는 네온 에스테틱:</strong> 어두운 네트워크 배경 위의 강렬한 빛의 그라데이션은 AI 시대에 걸맞은 현대적이고 역동적인 기술력과 고성능 이미지를 전달합니다.</li>
   </ul>
+
 </div>
 
 ---
 
+<div align="center">
+
 # 👁️ VisionFlow AI
 ## "지능형 드론 관제 및 무선 비전 AI 표준 파이프라인"
 
+</div>
+
 <br>
 
-<div align="center">
-  <sub><strong>Vision (AI 시각 지능) + Flow (실시간 데이터 흐름)</strong></sub>
+<div align="left">
+  <h2><strong>Vision (AI 시각 지능) + Flow (실시간 데이터 흐름)</strong></h2>
   <p>VisionFlow AI는 작업 현장의 드론 영상 스트림(Vision)을 실시간으로 분석하고, 위반 상황과 관제 데이터를 지연 없이 백엔드로 흘려보내는(Flow) <br>고성능 하이브리드 안전 관제 솔루션입니다.</p>
 </div>
 
-<div align="center">
-  <sub><strong>Developed by 팀 PyvaOps (1인 프로젝트)</strong></sub>
-  <p><strong>Py</strong>thon (AI) + Ja<strong>va</strong> (Backend) + Dev<strong>Ops</strong> (Infra) <br>
+<div align="left">
+  <h2><strong>Developed by 팀 PyvaOps (1인 프로젝트)</strong></h2>
+  <p><strong>Py</strong>thon (AI) + Ja<strong>va</strong> (Backend) + Dev<strong>Ops</strong> (Infra) :<br>
   서로 다른 기술 생태계를 하나의 파이프라인으로 관통하는 올라운더(All-rounder) 개발팀을 의미합니다.</p>
 </div>
 
@@ -104,6 +111,8 @@ graph LR
     style MySQL fill:#4479A1,stroke:#fff,stroke-width:2px,color:#fff
 ```
 
+<br>
+
 ---
 ## 🗺️ SkyGuard AI: 상세 데이터 파이프라인 다이어그램
 🔍 다이어그램 상세 설명 : 
@@ -111,23 +120,33 @@ graph LR
 
 ### 1. 드론 엣지 영역 (Drone Edge Zone)
 
-센서 입력 (RTSP): 드론 카메라(Gimbal Camera)가 현장의 고해상도 영상을 실시간으로 획득합니다.
+<li>센서 입력 (RTSP): 드론 카메라(Gimbal Camera)가 현장의 고해상도 영상을 실시간으로 획득합니다.</li>
 
-AI 추론 엔진 (FastAPI & YOLOv11): 획득한 영상 데이터는 온보드 또는 근거리 엣지 컴퓨터(NVIDIA Jetson 등)에서 실행되는 FastAPI 서버로 전달됩니다. 이 서버는 초경량화된 YOLOv11 모델을 구동하여 객체 탐지(Object Detection)와 자세 추정(Pose Estimation)을 실시간으로 수행합니다.
+<li>AI 추론 엔진 (FastAPI & YOLOv11): 획득한 영상 데이터는 온보드 또는 근거리 엣지 컴퓨터(NVIDIA Jetson 등)에서 실행되는 FastAPI 서버로 전달됩니다. 이 서버는 초경량화된 YOLOv11 모델을 구동하여 객체 탐지(Object Detection)와 자세 추정(Pose Estimation)을 실시간으로 수행합니다.</li>
 
 ### 2. 무선 전송 구간 (Wireless Data Flow)
 
-데이터 최적화: AI 엔진에서 분석된 결과는 전체 영상이 아닌, 탐지된 객체 정보(Bounding Box, Label, Confidence Score)와 핵심 키포인트 좌표만 JSON 형태로 압축됩니다. 이 경량화된 데이터는 무선 네트워크(LTE/5G)를 통해 클라우드로 안전하게 전송됩니다.
+<li>데이터 최적화: AI 엔진에서 분석된 결과는 전체 영상이 아닌, 탐지된 객체 정보(Bounding Box, Label, Confidence Score)와 핵심 키포인트 좌표만 JSON 형태로 압축됩니다. 이 경량화된 데이터는 무선 네트워크(LTE/5G)를 통해 클라우드로 안전하게 전송됩니다.</li>
 
 ### 3. 클라우드 관제 영역 (Cloud Backend Zone)
 
-백엔드 API 서버 (Spring Boot): 무선으로 수신된 이벤트 데이터를 Spring Boot API 서버가 받아 검증합니다.
+<li>백엔드 API 서버 (Spring Boot): 무선으로 수신된 이벤트 데이터를 Spring Boot API 서버가 받아 검증합니다.</li>
 
-데이터 영속화 (MySQL): 탐지된 이벤트 로그, 드론 상태 정보 등은 MySQL 데이터베이스에 안전하게 저장되어 이력 관리 및 분석에 활용됩니다.
+<li>데이터 영속화 (MySQL): 탐지된 이벤트 로그, 드론 상태 정보 등은 MySQL 데이터베이스에 안전하게 저장되어 이력 관리 및 분석에 활용됩니다.</li>
 
-관제 대시보드 (Web Client): 최종 사용자는 웹 브라우저를 통해 관제 대시보드에 접속하여, 실시간으로 드론의 위치와 AI가 탐지한 위험 상황을 시각적으로 모니터링할 수 있습니다.
+<li>관제 대시보드 (Web Client): 최종 사용자는 웹 브라우저를 통해 관제 대시보드에 접속하여, 실시간으로 드론의 위치와 AI가 탐지한 위험 상황을 시각적으로 모니터링할 수 있습니다.</li>
 
 ---
+
+
+<div align="center">
+
+<!-- 드론 이미지 삽입 (중간) -->
+<img src="drone_mini4_pro.jpg" width="517" height="512" alt="Drone image">
+
+</div>
+
+
 ## 🎯 1. Core Features (핵심 기능)
 
 <table>
@@ -211,27 +230,27 @@ Nginx Security: SSL/HTTPS 기반의 안전한 데이터 통신 환경 구축.
 
 Docker Desktop이 설치되어 있다면, 복잡한 환경 설정 없이 단 한 줄의 명령어로 전체 관제 시스템을 가동할 수 있습니다.
 
-1. 프로젝트 클론 및 이동
+### 1. 프로젝트 클론 및 이동
 
 git clone [https://github.com/automaster5013/VisionFlow_AI.git](https://github.com/automaster5013/VisionFlow_AI.git)
 
 cd VisionFlow_AI
 
 
-2. 전체 시스템 빌드 및 실행
+### 2. 전체 시스템 빌드 및 실행
 
 최상위 디렉토리에서 아래 명령어를 실행합니다.
 
 docker-compose up --build
 
 
-3. 관제 시스템 접속
+### 3. 관제 시스템 접속
 
-관제 대시보드 (React): http://localhost:5173
+관제 대시보드 (React): http://localhost:5173 
 
-AI 서버 API (FastAPI Docs): http://localhost:8000/docs
+AI 서버 API (FastAPI Docs): http://localhost:8000/docs 
 
-백엔드 API (Spring Boot): http://localhost:8080/api/logs
+백엔드 API (Spring Boot): http://localhost:8080/api/logs 
 
 ---
 
