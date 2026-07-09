@@ -8,7 +8,7 @@
 <div align="left">
 
 <!-- 🎨 로고에 대한 간략하고 짜임새 있는 설명 추가 -->
-<div align="center" style="max-width: 800px; text-align: left; background-color: #f6f8fa; padding: 15px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px;">
+<div align="left" style="max-width: 800px; text-align: left; background-color: #f6f8fa; padding: 15px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px;">
   <h3 style="margin-top: 0;">🎨 Team PyvaOps Logo Concept</h3>
   <p style="font-size: 0.95em; color: #333; line-height: 1.6;">
     팀명 <strong>PyvaOps</strong>의 정체성을 시각화한 이 로고는 서로 다른 기술 생태계를 하나의 완벽한 흐름으로 관통하는 <br><strong>'올라운더(All-rounder)'</strong> 개발팀의 핵심 가치를 담고 있습니다.
@@ -34,7 +34,7 @@
 
 <div align="left">
   <h2><strong>Vision (AI 시각 지능) + Flow (실시간 데이터 흐름)</strong></h2>
-  <p>VisionFlow AI는 작업 현장의 드론 영상 스트림(Vision)을 실시간으로 분석하고, 위반 상황과 관제 데이터를 지연 없이 백엔드로 흘려보내는(Flow) <br>고성능 하이브리드 안전 관제 솔루션입니다.</p>
+  <p>VisionFlow AI는 작업 현장의 드론 영상 스트림(Vision)을 실시간으로 분석하고, 위반 상황과 관제 데이터를 지연 없이 백엔드로 흘려보내는(Flow) 고성능 하이브리드 안전 관제 솔루션입니다.</p>
 </div>
 
 <div align="left">
