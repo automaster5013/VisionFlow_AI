@@ -26,7 +26,7 @@
 <div align="center">
 
 # 👁️ VisionFlow AI
-## "지능형 드론 관제 및 무선 비전 AI 표준 파이프라인"
+## PROJECT : 지능형 드론 관제 및 무선 비전 AI 표준 파이프라인
 
 </div>
 
