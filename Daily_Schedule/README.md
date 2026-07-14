@@ -22,3 +22,53 @@
 | **07.28** | 화 | **최종 통합 테스트 및 버그 픽스** | - 무선 환경(드론 ↔ 서버) 지연 시간(Latency) 체크 및 최적화<br>- 전체 시스템 통합 QA 및 크리티컬 버그 수정 | |
 | **07.29** | 수 | **발표 준비 및 산출물 정리** | - 프로젝트 결과 보고서 및 최종 발표용 PPT 제작<br>- 시연 영상(GIF/MP4) 촬영 및 README.md 최종 업데이트 | |
 | **07.30** | 목 | **최종 프로젝트 결과 발표** | - **2차 프로젝트 최종 시연 및 성과 발표** | 🏆 **최종 발표** |
+
+<br><br>
+## 🚁실제 운용할 드론 모델 : DJI mini4 pro (RC-N2 포함)<br>
+<br>
+---
+<div align="center">
+<!-- 드론 이미지 삽입 (맨 하단) -->
+<img src="@ultra_01.jpg" width="800" alt="PyvaOps Team Logo">
+</div>
+<br>
+<div align="center">
+<!-- 드론 이미지 삽입 (맨 하단) -->
+<img src="@ultra_02.jpg" width="800" alt="PyvaOps Team Logo">
+</div>
+<br>
+<div align="center">
+<!-- 드론 이미지 삽입 (맨 하단) -->
+<img src="@ultra_03.jpg" width="800" alt="PyvaOps Team Logo">
+</div>
+<br>
+<div align="center">
+<!-- 드론 이미지 삽입 (맨 하단) -->
+<img src="@ultra_04.jpg" width="800" alt="PyvaOps Team Logo">
+</div>
+<br>
+<div align="center">
+<!-- 드론 이미지 삽입 (맨 하단) -->
+<img src="@ultra_05.jpg" width="800" alt="PyvaOps Team Logo">
+</div>
+<br>
+<div align="center">
+<!-- 드론 이미지 삽입 (맨 하단) -->
+<img src="@ultra_06.jpg" width="800" alt="PyvaOps Team Logo">
+</div>
+<br>
+<div align="center">
+<!-- 드론 이미지 삽입 (맨 하단) -->
+<img src="@ultra_07.jpg" width="800" alt="PyvaOps Team Logo">
+</div>
+---
+<br>
+
+
+
+
+
+
+
+
+
