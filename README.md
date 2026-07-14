@@ -114,7 +114,7 @@ graph LR
 <br>
 
 ---
-## 🗺️ SkyGuard AI: 상세 데이터 파이프라인 다이어그램
+## 🗺️ VisionFlow AI: 상세 데이터 파이프라인 다이어그램
 🔍 다이어그램 상세 설명 : 
 이 파이프라인은 크게 세 가지 영역으로 나뉘어 데이터가 흐릅니다.
 
@@ -258,7 +258,7 @@ AI 서버 API (FastAPI Docs): http://localhost:8000/docs
 
 [O] Phase 1: 시스템 초기 아키텍처 설계 및 데이터베이스 구축 (현재 완료)
 
-[x] Phase 2: Custom YOLO 모델 학습 및 FastAPI 추론 서버 연동
+[x] Phase 2: Custom YOLO 모델 학습 및 FastAPI 추론 서버 연동 (진행중~)
 
 [x] Phase 3: React 기반 실시간 관제 대시보드 및 통계 차트 구현
 
