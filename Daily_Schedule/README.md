@@ -26,7 +26,6 @@
 <br><br>
 ## 🚁실제 운용할 드론 모델 : DJI mini4 pro (RC-N2 포함)<br>
 <br>
----
 <div align="center">
 <!-- 드론 이미지 삽입 (맨 하단) -->
 <img src="@ultra_01.jpg" width="800" alt="PyvaOps Team Logo">
@@ -61,7 +60,6 @@
 <!-- 드론 이미지 삽입 (맨 하단) -->
 <img src="@ultra_07.jpg" width="800" alt="PyvaOps Team Logo">
 </div>
----
 <br>
 
 
