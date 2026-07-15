@@ -230,21 +230,21 @@ Nginx Security: SSL/HTTPS 기반의 안전한 데이터 통신 환경 구축.
 
 Docker Desktop이 설치되어 있다면, 복잡한 환경 설정 없이 단 한 줄의 명령어로 전체 관제 시스템을 가동할 수 있습니다.
 
-### 1. 프로젝트 클론 및 이동
+### 1) 프로젝트 클론 및 이동
 
 git clone [https://github.com/automaster5013/VisionFlow_AI.git](https://github.com/automaster5013/VisionFlow_AI.git)
 
 cd VisionFlow_AI
 
 
-### 2. 전체 시스템 빌드 및 실행
+### 2) 전체 시스템 빌드 및 실행
 
 최상위 디렉토리에서 아래 명령어를 실행합니다.
 
 docker-compose up --build
 
 
-### 3. 관제 시스템 접속
+### 3) 관제 시스템 접속
 
 관제 대시보드 (React): http://localhost:5173 
 
