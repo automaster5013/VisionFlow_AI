@@ -23,41 +23,38 @@
 | **07.29** | 수 | **발표 준비 및 산출물 정리** | - 프로젝트 결과 보고서 및 최종 발표용 PPT 제작<br>- 시연 영상(GIF/MP4) 촬영 및 README.md 최종 업데이트 |                     |
 | **07.30** | 목 | **최종 프로젝트 결과 발표** | - **2차 프로젝트 최종 시연 및 성과 발표** | 🏆 **최종 발표**        |
 
+
+<div align="center">
+
 <br><br>
 ## 🚁실제 운용할 드론 모델 : DJI mini4 pro (RC-N2 포함)<br>
 <br>
-<div align="center">
+
 <!-- 드론 이미지 삽입 (맨 하단) -->
 <img src="./images/@ultra_01.jpg" width="800" alt="PyvaOps Team Logo">
 </div>
 <br>
 <div align="center">
-<!-- 드론 이미지 삽입 (맨 하단) -->
 <img src="./images/@ultra_02.jpg" width="800" alt="PyvaOps Team Logo">
 </div>
 <br>
 <div align="center">
-<!-- 드론 이미지 삽입 (맨 하단) -->
 <img src="./images/@ultra_03.jpg" width="800" alt="PyvaOps Team Logo">
 </div>
 <br>
 <div align="center">
-<!-- 드론 이미지 삽입 (맨 하단) -->
 <img src="./images/@ultra_04.jpg" width="800" alt="PyvaOps Team Logo">
 </div>
 <br>
 <div align="center">
-<!-- 드론 이미지 삽입 (맨 하단) -->
 <img src="./images/@ultra_05.jpg" width="800" alt="PyvaOps Team Logo">
 </div>
 <br>
 <div align="center">
-<!-- 드론 이미지 삽입 (맨 하단) -->
 <img src="./images/@ultra_06.jpg" width="800" alt="PyvaOps Team Logo">
 </div>
 <br>
 <div align="center">
-<!-- 드론 이미지 삽입 (맨 하단) -->
 <img src="./images/@ultra_07.jpg" width="800" alt="PyvaOps Team Logo">
 </div>
 <br>
