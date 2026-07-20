@@ -258,9 +258,9 @@ AI 서버 API (FastAPI Docs): http://localhost:8000/docs
 
 [O] Phase 1: 시스템 초기 아키텍처 설계 및 데이터베이스 구축 (현재 완료)
 
-[x] Phase 2: Custom YOLO 모델 학습 및 FastAPI 추론 서버 연동 (진행중~)
+[O] Phase 2: Custom YOLO 모델 학습 및 FastAPI 추론 서버 연동 (현재 완료)
 
-[x] Phase 3: React 기반 실시간 관제 대시보드 및 통계 차트 구현
+[x] Phase 3: React 기반 실시간 관제 대시보드 및 통계 차트 구현 (진행중~)
 
 [x] Phase 4: Docker Compose를 활용한 전사적 시스템 패키징
 
