@@ -25,7 +25,7 @@
 
 <div align="center">
 
-# 👁️ VisionFlow AI
+# 👁️ VisionFlow Drone
 ## PROJECT : 지능형 드론 관제 및 무선 비전 AI 표준 파이프라인
 ### (최신 NMS-free 아키텍처 비전 AI와 무선 드론 관제를 접목한 실시간 통합 관제 시스템)
 </div>
@@ -114,7 +114,7 @@ graph LR
 <br>
 
 ---
-## 🗺️ VisionFlow AI: 상세 데이터 파이프라인 다이어그램
+## 🗺️ VisionFlow Drone: 상세 데이터 파이프라인 다이어그램
 🔍 다이어그램 상세 설명 : 
 이 파이프라인은 크게 세 가지 영역으로 나뉘어 데이터가 흐릅니다.
 
@@ -232,7 +232,7 @@ Docker Desktop이 설치되어 있다면, 복잡한 환경 설정 없이 단 한
 
 ### 1) 프로젝트 클론 및 이동
 
-git clone [https://github.com/automaster5013/VisionFlow_AI.git](https://github.com/automaster5013/VisionFlow_AI.git)
+git clone [https://github.com/automaster5013/VisionFlow-Drone.git](https://github.com/automaster5013/VisionFlow_AI.git)
 
 cd VisionFlow_AI
 
